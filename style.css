@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to left ,rgb(14, 11, 174),blue,rgb(72, 72, 211));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 5px double blue;
+    background-color: navy;
+    align-self: center;
+    width: 700px;
+    padding: 50px;
+}
+.center{
+    text-align: center;
+    color: white;
+}
+.form{
+    margin-left: 20px;
+}
+label{
+    color: blue;
+}
+.hr{
+    border: 1px solid blue;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 40px;
+    width: 300px;
+    color: white;
+    margin-left: 200px;
+}
